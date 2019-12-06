@@ -5,6 +5,7 @@ We’ve learned several sorting algorithms, as well as which algorithms are “a
 
 C Standard Time Libary
 https://www.tutorialspoint.com/c_standard_library/time_h.htm
+https://en.cppreference.com/w/c/chrono/clock_t
 
 File I/O
 https://stdcxx.apache.org/doc/stdlibug/30-2.html
