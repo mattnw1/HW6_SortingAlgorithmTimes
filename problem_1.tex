@@ -1,0 +1,42 @@
+Write a short (1 page or less) report on your experience. Were the time differences more
+drastic than you expected? What tradeoffs are involved in picking one algorithm over
+another? How did your choice of programming language affect the results? What are
+some shortcomings of this empirical analysis?  \\
+
+Note: Each algorithm sorted 100,000 randomly generated doubles. \
+
+\begin{tcolorbox}
+\textbf{
+    Time Differences
+}
+\textit{
+After studying five sorting algorithms (bubble, selection, insertion, merge, and quick sort)in class, I was not surprised in terms of how each ranked in terms of time. This is due to the fact that the algorithms that do not 'divide and conquer' have a worse big-O runtime of \(O(n^2)\). However, I was very surprised with how great the time difference was. Merge sort and quick blew the other algorithms out of the water.
+}
+\end{tcolorbox}
+
+\begin{tcolorbox}
+\textbf{
+    Tradeoffs
+}
+\textit{
+Tradeoffs when picking one algorithm over another include time (speed), algorithm complexity, memory usage, and processing power. Bubble sort, selection sort, and insertion sort all have a big-O runtime of \(O(n^2)\) with completely unsorted data. Although they are slower, their complexity is much less than merge sort and quick sort. For the fasted sorting algorithms (merge and quick) each divide and conquer in different ways. Merge sort uses an auxiliary array to sort, thus, this algorithm relies on the computer having extra memory. This trade off is a reason why merge sort wasn't popular in earlier computing times (computers had very little memory). In comparison, quick sort sorts in place, with each recursive call the array is partitioned via a pivot. This requires more processing power.
+}
+\end{tcolorbox}
+
+\begin{tcolorbox}
+\textbf{
+    Choice of Programming Language
+}
+\textit{
+By using C++ as a programming language, I believe that it has improved our results. I understand C++ as lower-level language than java, C\# or python. The fact that it is a compiled language rather than an interpreted language allows for it to be superior in performance when being compared to higher level languages.
+}
+\end{tcolorbox}
+
+\begin{tcolorbox}
+\textbf{
+    Empirical Analysis Shortcomings
+}
+\textit{
+Disadvantages of empirical analysis include speed/time necessary, the size of data input effecting analysis and how the analysis depends on the machines memory & processor. Empirical analysis takes much more time. Interns die waiting for an empirical analysis of algorithms to complete. The size of the data will also dictate how fast or "good" the algorithm is. For this assignment, we were only able to see how fast a sorting algorithm was once the size of data was large enough. Lastly, a computer with more RAM and more powerful processing units will perform better than one with less. So when comparing algorithms, such factors need to be accounted for and regulated.
+}
+\end{tcolorbox}
